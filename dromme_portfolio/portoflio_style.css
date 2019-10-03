@@ -1,0 +1,390 @@
+*{
+    
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(galaxy.jpg);
+    
+    background-size: cover;
+    font-family: sans-serif;
+    color: gold;
+} 
+.hoved{
+    
+    margin-top: 41px;
+    padding: 5px;
+    float: right;
+    text-align: end;
+    
+    
+    
+    
+   
+}   
+
+.hoved:hover{
+    
+ border: 1px solid gold;
+    border-radius: 0.5em;
+
+    
+}
+
+
+.header img{
+
+ width: 130px;
+ margin: 0px;
+ padding: 0px;
+}
+
+}
+
+/*
+.logo{
+    display: flex;
+    width: 10px;
+    
+
+    }
+.logo img{
+    
+  width:150px;
+      
+}
+*/
+
+
+.container{
+    display: flex;
+    text-align: end;
+      
+}
+
+
+
+
+.container nav a{
+    
+    text-decoration: none;
+    color: gold;
+    
+    
+    
+}
+.container nav a:visited{
+  text-decoration: none;
+  color: gold;
+    
+}
+
+.forside img{
+     
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 98%;
+     max-width: 100%;
+     height: auto;
+    
+    border-radius: 6.5px;
+    border: 2px solid gold;
+    
+}
+.h2 h2{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: -50px;
+    
+}
+.port{
+    
+    display: flex;
+    justify-content: center;
+   
+    width:100%;
+    height: 100%;
+    align-items: center;
+   
+
+    
+}
+
+.port{
+    
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 100px;
+    margin-top: 100px;
+    
+}
+
+
+.picture img{
+     margin-left: auto;
+  margin-right: auto;
+    width: 320px;
+    height: 420px;
+  /*display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+     max-width: 65%;
+     height: auto;
+    
+    border-radius: 6.5px;
+    border: 2px solid gold;
+    */   
+    
+}
+
+.picture{
+    
+   display: block;     
+ position: relative;
+ display: flex;
+ margin: 0.7em;
+    border: 2px solid gold;
+    
+    
+}
+.infotext{
+   position: absolute;
+    top: 0px;
+    left: 0px;
+    display: flex;
+    
+    
+    justify-content: center;
+    align-items: center;
+    width: 320px;
+    height: 100%;
+    background: rgba(00, 00, 00, 0.5 );
+    color: aliceblue;
+    font-size: 3em;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.picture:hover .infotext{
+  
+  visibility: visible;  
+  opacity: 1;
+  
+ 
+    
+}
+
+
+a{
+    
+    color: gold;
+    text-decoration: none;
+}
+
+.next{
+    
+    display: flex;
+    justify-content: center;
+    margin-top: 55px;
+    
+    
+}
+.next a{
+   margin-top: 10px; 
+  margin-bottom: 190px;   
+
+    
+}
+
+
+/*Mine metoder*/
+
+.text-titel{
+    
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 200%;
+}
+.boxes{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin-bottom: 200px;
+    
+    
+}
+.kasser{
+    
+    display: flex;
+   
+    justify-content: center;
+    align-items: center;
+    width: 12%;
+    height: 20%;
+    margin: 10px;
+    
+    
+}
+.kasser img{
+    
+    width: 100%;
+    height: auto;
+    
+    
+}
+
+
+
+/*Gallery stylesheet*/
+
+
+
+.hoved3{
+    
+    
+    margin-top: 41px;
+    padding: 5px;
+    float: right;
+    text-align: end;
+    text-decoration:inherit;
+    font-weight: bold;
+    text-decoration: underline gold;
+}
+.hoved3:hover{
+    
+    
+    border: 1px solid gold;
+    border-radius: 0.5em;
+    text-decoration: none;
+    font-weight:normal;
+}
+
+
+.socialmedia{
+    
+    text-align: end;
+    margin-bottom: 20px;
+    padding-right: 30px;
+    font-weight: bold;
+    
+}
+
+.gallery{
+    
+     text-align: center;
+    margin-bottom: 5%;
+    font-size: 30px;
+}
+
+.insta img{
+    
+    width: 50px;
+    border-radius: 4em;
+   
+    
+}
+
+.insta{
+    display: flex;
+    
+    float: right;
+    padding: 5px;
+}
+
+.insta p{
+    margin-top: 15px;
+    padding: 5px;}
+
+.linktext{
+    margin-right: 4px;
+}
+    
+
+.sketch img{
+    width: 330px;
+    height: 350px;
+    margin:10px;
+    transition: transform .2s; /* Animation */
+    margin: 0 auto;
+    
+    
+}
+
+
+.sketch img:hover{
+   transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+   
+    
+    /*semestre*/
+    
+}
+    .hoved4{
+    
+    margin-top: 41px;
+    padding: 5px;
+    float: right;
+    text-align: end;
+    text-decoration:inherit;
+    font-weight: bold;
+    text-decoration: underline gold;
+    
+}
+.hoved4:hover{
+      border: 1px solid gold;
+    border-radius: 0.5em;
+    text-decoration: none;
+    font-weight:normal;
+    
+    
+}
+
+.sem{
+    
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 50px;
+    
+}
+
+.tabs{
+    
+    border-bottom: 1px solid gold;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.tabs nav{
+    
+    display: flex;
+    width: 2000px;
+    justify-content: space-around;
+    font-family: helvetica, sans-serif;
+    
+}
+
+.tabs nav a {
+    
+    border: 1px solid gold;
+    padding: 10px 40px;
+    margin-bottom: -1px;
+    background-image:linear-gradient(gold, orange);
+    text-decoration: none;
+    color: #603000;
+    font-weight: bold;
+    border-radius: 6px 6px 0px 0px;
+    
+}
+.tabs nav a:hover {
+background-image:linear-gradient( orange,red); 
+    
+}
+
+

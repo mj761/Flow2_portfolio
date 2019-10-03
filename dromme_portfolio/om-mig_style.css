@@ -1,0 +1,73 @@
+
+
+.hoved2{
+    margin-top: 41px;
+    padding: 5px;
+    float: right;
+    text-align: end;
+    text-decoration:inherit;
+    font-weight: bold;
+    text-decoration: underline gold;
+    }
+.hoved2:hover{
+    border: 1px solid gold;
+    border-radius: 0.5em;
+    text-decoration: none;
+    font-weight:normal;
+    }
+
+.hovedtext{
+    text-align: center;
+    margin-bottom: 5%;
+    font-size: 30px;
+    
+    
+}
+
+.responsive {
+ max-width: 100%;
+  height: auto;
+}
+
+.h1{
+    margin-bottom: 20px;
+    
+}
+
+.infoboxes{
+    display: flex;
+    justify-content: center;
+    
+    
+    
+}
+.infoboxes img{
+     
+ width: 320px; 
+ height: 320px;
+ margin: 20px;
+    
+}
+.aboutme {
+ 
+    
+    
+}
+
+.titel1{
+    text-align: center;
+    font-weight: bolder;
+    
+    
+}
+.divforhoveritem{
+   width: 320px; 
+   margin: 20px;
+  
+   columns: 4px 2;
+    
+    
+}
+
+
+

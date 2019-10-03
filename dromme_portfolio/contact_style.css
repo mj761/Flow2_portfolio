@@ -1,0 +1,70 @@
+.hoved1{
+    
+    margin-top: 41px;
+    padding: 5px;
+    float: right;
+    text-align: end;
+    text-decoration:inherit;
+    font-weight: bold;
+    text-decoration: underline gold;
+    
+}
+.hoved1:hover{
+    border: 1px solid gold;
+    border-radius: 0.5em;
+    text-decoration: none;
+    font-weight:normal;
+    
+}
+.box{
+  
+    
+}
+
+
+.contact-me{
+    text-align: center;
+    margin-bottom: 5%;
+    font-size: 40px;
+    
+    
+    
+}
+
+.contact{
+  
+    margin-top: 10px;
+    margin-left: 45%
+    
+}
+.contact1{
+    
+    margin-top: 30px;
+    margin-left: 40%;
+    
+}
+.comment{
+    
+    margin-left: 8%;
+}
+
+.infobox{
+
+     float: right;
+    padding: 10px;
+    border: 1px solid gold;
+    border-radius: 0.5em;
+    
+    
+}
+.information{
+    margin: 2px;
+    
+    
+}
+input[type=submit] {
+    width: 8em;  height: 3em;
+    margin-top: 10px;
+    
+    
+}
